@@ -10,7 +10,7 @@ def readme():
 
 setuptools.setup(
     name="PySimpleGUI",
-    version="4.60.4",
+    version="4.60.5",
     author="PySimpleGUI",
     author_email="PySimpleGUI@PySimpleGUI.org",
     description="Python GUIs for Humans. Launched in 2018. It's 2022 & PySimpleGUI is an ACTIVE & supported project. Super-simple to create custom GUI's. 325+ Demo programs & Cookbook for rapid start. Extensive documentation. Main docs at www.PySimpleGUI.org. Fun & your success are the focus. Examples using Machine Learning (GUI, OpenCV Integration), Rainmeter Style Desktop Widgets, Matplotlib + Pyplot, PIL support, add GUI to command line scripts, PDF & Image Viewers. Great for beginners & advanced GUI programmers.",
@@ -18,7 +18,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     keywords="GUI UI tkinter Qt WxPython Remi wrapper simple easy beginner novice student graphics progressbar progressmeter",
     url="https://github.com/PySimpleGUI/PySimpleGUI",
-    packages=setuptools.find_packages(),
+    py_modules=['PySimpleGUI'],
     classifiers=(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.4",
